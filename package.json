@@ -1,0 +1,12 @@
+{
+  "name": "code-service",
+  "version": "1.0.0",
+  "description": "Microservice for handle all the business logics related to codes",
+  "main": "Index.ts",
+  "scripts": {
+    "start": "ts-node src/Index.ts"
+  },
+  "keywords": [],
+  "author": "@randomn",
+  "license": "ISC"
+}
