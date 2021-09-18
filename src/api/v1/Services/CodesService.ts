@@ -34,10 +34,10 @@ export const validateData = (data: any, schema: Joi.ArraySchema) => {
   return schema.validate(data, { abortEarly: false });
 };
 
-export const searchCodeByTags = (searchTitle: string) => {
+export const searchCodeByTags = (searchTags: string) => {
   return new Promise((resolve, reject) => {
     logger.info("Searching codes by it's tags from database");
-    Code.find({ tags: { $all: searchTitle.toLowerCase().split(",") } })
+    Code.find({ tags: { $all: searchTags.toLowerCase().split(",") } })
       .then((response) => {
         logger.info(`got ${response.length} entries from database`);
         resolve(response);

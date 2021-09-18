@@ -8,7 +8,6 @@ export interface AddCodeInterface {
   tags: Array<string>;
   code: string;
   category: string;
-  subCategory: string;
   language: string;
   metaData: {
     userId: string;
