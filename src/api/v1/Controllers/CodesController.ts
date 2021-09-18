@@ -59,7 +59,7 @@ export const addNewCodes = (
   addNewCode(body)
     .then((response) => {
       logger.info(`Added a new code successfully: ${JSON.stringify(response)}`);
-      res.status(200).send(response);
+      res.status(201).send(response);
     })
     .catch((err) => {
       logger.error(`Exception happened when adding new code: ${err}`);
