@@ -14,6 +14,12 @@ if (!process.env.DB_PORT) {
 if (!process.env.SERVER_PORT) {
   throw new Error("SERVER_PORT is not defined in env variables");
 }
+if (!process.env.AUTH_SRV_URL) {
+  throw new Error("AUTH_SRV_URL is not defined in env variables");
+}
+if (!process.env.AUTH_SRV_PORT) {
+  throw new Error("AUTH_SRV_URL is not defined in env variables");
+}
 
 mongoose
   .connect(
