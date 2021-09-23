@@ -20,6 +20,9 @@ if (!process.env.AUTH_SRV_URL) {
 if (!process.env.AUTH_SRV_PORT) {
   throw new Error("AUTH_SRV_URL is not defined in env variables");
 }
+if (!process.env.LOG_FILE_PATH) {
+  throw new Error("LOG_FILE_PATH is not defined in env variables");
+}
 
 mongoose
   .connect(

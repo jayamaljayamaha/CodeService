@@ -10,6 +10,9 @@
   "jest": {
     "preset": "ts-jest",
     "testEnvironment": "node",
+    "setupFiles": [
+      "./tests/api/v1/Config/Env.ts"
+    ],
     "setupFilesAfterEnv": [
       "./tests/api/v1/Config/config.ts"
     ]
@@ -18,7 +21,7 @@
   "author": "@randomn",
   "license": "ISC",
   "dependencies": {
-    "@randomn/drescode-common": "0.0.5",
+    "@randomn/drescode-common": "^0.1.0",
     "@types/axios": "^0.14.0",
     "@types/express": "^4.17.13",
     "@types/joi": "^17.2.3",

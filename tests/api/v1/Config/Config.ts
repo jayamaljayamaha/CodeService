@@ -1,7 +1,5 @@
 import { MongoMemoryServer } from "mongodb-memory-server";
 import mongoose from "mongoose";
-import app from "../../../../src/api/v1/App";
-import { clearDb } from "./CommonConfigs";
 
 let mongoDbMemoryInstance: MongoMemoryServer;
 

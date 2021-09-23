@@ -1,0 +1,120 @@
+{"level":"info","message":"Getting all the codes from database","timestamp":"2021-09-23T17:46:50.687Z"}
+{"level":"info","message":"Got 3 entries from database","timestamp":"2021-09-23T17:46:50.697Z"}
+{"level":"info","message":"Adding new code to the database","timestamp":"2021-09-23T17:46:50.704Z"}
+{"level":"info","message":"Searching codes by it's tags from database","timestamp":"2021-09-23T17:46:50.718Z"}
+{"level":"info","message":"got 1 entries from database","timestamp":"2021-09-23T17:46:50.719Z"}
+{"level":"info","message":"Searching codes by it's tags from database","timestamp":"2021-09-23T17:46:50.720Z"}
+{"level":"info","message":"got 3 entries from database","timestamp":"2021-09-23T17:46:50.722Z"}
+{"level":"info","message":"Searching codes by it's tags from database","timestamp":"2021-09-23T17:46:50.722Z"}
+{"level":"info","message":"got 0 entries from database","timestamp":"2021-09-23T17:46:50.723Z"}
+{"level":"info","message":"Searching codes by category it's title from database","timestamp":"2021-09-23T17:46:50.730Z"}
+{"level":"info","message":"got 2 entries from database","timestamp":"2021-09-23T17:46:50.732Z"}
+{"level":"info","message":"Searching codes by category it's title from database","timestamp":"2021-09-23T17:46:50.732Z"}
+{"level":"info","message":"got 0 entries from database","timestamp":"2021-09-23T17:46:50.733Z"}
+{"level":"info","message":"get a request to search codes","timestamp":"2021-09-23T17:46:51.191Z"}
+{"level":"info","message":"Searching codes by it's tags from database","timestamp":"2021-09-23T17:46:51.192Z"}
+{"level":"info","message":"got 1 entries from database","timestamp":"2021-09-23T17:46:51.199Z"}
+{"level":"info","message":"Searched codes by tags successfully","timestamp":"2021-09-23T17:46:51.200Z"}
+{"level":"info","message":"get a request to search codes","timestamp":"2021-09-23T17:46:51.212Z"}
+{"level":"info","message":"Searching codes by category it's title from database","timestamp":"2021-09-23T17:46:51.212Z"}
+{"level":"info","message":"got 2 entries from database","timestamp":"2021-09-23T17:46:51.214Z"}
+{"level":"info","message":"Searched codes by category successfully","timestamp":"2021-09-23T17:46:51.214Z"}
+{"level":"info","message":"get a request to search codes","timestamp":"2021-09-23T17:46:51.218Z"}
+{"level":"error","message":"Search phrase is not defined","timestamp":"2021-09-23T17:46:51.218Z"}
+{"level":"info","message":"get a request to search codes","timestamp":"2021-09-23T17:46:51.221Z"}
+{"level":"error","message":"Only one search phrase can be defined","timestamp":"2021-09-23T17:46:51.221Z"}
+{"level":"info","message":"get a request to get all the codes","timestamp":"2021-09-23T17:46:51.255Z"}
+{"level":"info","message":"Getting all the codes from database","timestamp":"2021-09-23T17:46:51.256Z"}
+{"level":"info","message":"Got 3 entries from database","timestamp":"2021-09-23T17:46:51.263Z"}
+{"level":"info","message":"got all the codes successfully","timestamp":"2021-09-23T17:46:51.263Z"}
+{"level":"info","message":"get a request to get all the codes","timestamp":"2021-09-23T17:46:51.277Z"}
+{"level":"info","message":"Getting all the codes from database","timestamp":"2021-09-23T17:46:51.277Z"}
+{"level":"info","message":"Got 3 entries from database","timestamp":"2021-09-23T17:46:51.280Z"}
+{"level":"info","message":"got all the codes successfully","timestamp":"2021-09-23T17:46:51.280Z"}
+{"level":"info","message":"get a request to add a new code and user is authorized","timestamp":"2021-09-23T17:46:51.315Z"}
+{"level":"info","message":"Validating body","timestamp":"2021-09-23T17:46:51.316Z"}
+{"level":"info","message":"Data validated successfully","timestamp":"2021-09-23T17:46:51.318Z"}
+{"level":"info","message":"Adding new code to the database","timestamp":"2021-09-23T17:46:51.318Z"}
+{"level":"info","message":"Added a new code successfully: [{\"title\":\"Bubble Sort\",\"tags\":[\"bubble\",\"sort\",\"java\"],\"code\":\"sample code\",\"category\":\"sorting\",\"language\":\"java\",\"metaData\":{\"userId\":\"sdf\",\"createdAt\":\"2021-09-23T17:46:51.322Z\",\"lastUpdated\":\"2021-09-23T17:46:51.322Z\",\"numberOfTimesUpdated\":0},\"_id\":\"614cbd8bc9b0ecb612b34f13\",\"updateHistory\":[],\"version\":0}]","timestamp":"2021-09-23T17:46:51.331Z"}
+{"level":"info","message":"get a request to add a new code and user is authorized","timestamp":"2021-09-23T17:46:51.343Z"}
+{"level":"info","message":"Validating body","timestamp":"2021-09-23T17:46:51.343Z"}
+{"level":"info","message":"Data validated successfully","timestamp":"2021-09-23T17:46:51.344Z"}
+{"level":"info","message":"Adding new code to the database","timestamp":"2021-09-23T17:46:51.344Z"}
+{"level":"info","message":"Added a new code successfully: [{\"title\":\"Bubble Sort\",\"tags\":[\"bubble\",\"sort\",\"java\"],\"code\":\"sample code\",\"category\":\"sorting\",\"language\":\"java\",\"metaData\":{\"userId\":\"sdf\",\"createdAt\":\"2021-09-23T17:46:51.345Z\",\"lastUpdated\":\"2021-09-23T17:46:51.345Z\",\"numberOfTimesUpdated\":0},\"_id\":\"614cbd8bc9b0ecb612b34f15\",\"updateHistory\":[],\"version\":0}]","timestamp":"2021-09-23T17:46:51.348Z"}
+{"level":"info","message":"get a request to add a new code and user is authorized","timestamp":"2021-09-23T17:46:51.358Z"}
+{"level":"info","message":"Validating body","timestamp":"2021-09-23T17:46:51.358Z"}
+{"level":"error","message":"Invalid data in body: ValidationError: \"[0].title\" is required. \"[0].category\" is required","timestamp":"2021-09-23T17:46:51.359Z"}
+{"level":"info","message":"Getting all the codes from database","timestamp":"2021-09-23T18:11:41.016Z"}
+{"level":"info","message":"Got 3 entries from database","timestamp":"2021-09-23T18:11:41.023Z"}
+{"level":"info","message":"Adding new code to the database","timestamp":"2021-09-23T18:11:41.031Z"}
+{"level":"info","message":"Searching codes by it's tags from database","timestamp":"2021-09-23T18:11:41.047Z"}
+{"level":"info","message":"got 1 entries from database","timestamp":"2021-09-23T18:11:41.050Z"}
+{"level":"info","message":"Searching codes by it's tags from database","timestamp":"2021-09-23T18:11:41.051Z"}
+{"level":"info","message":"got 3 entries from database","timestamp":"2021-09-23T18:11:41.053Z"}
+{"level":"info","message":"Searching codes by it's tags from database","timestamp":"2021-09-23T18:11:41.053Z"}
+{"level":"info","message":"got 0 entries from database","timestamp":"2021-09-23T18:11:41.054Z"}
+{"level":"info","message":"Searching codes by category it's title from database","timestamp":"2021-09-23T18:11:41.061Z"}
+{"level":"info","message":"got 2 entries from database","timestamp":"2021-09-23T18:11:41.063Z"}
+{"level":"info","message":"Searching codes by category it's title from database","timestamp":"2021-09-23T18:11:41.064Z"}
+{"level":"info","message":"got 0 entries from database","timestamp":"2021-09-23T18:11:41.066Z"}
+{"level":"info","message":"get a request to get all the codes","timestamp":"2021-09-23T18:11:41.563Z"}
+{"level":"info","message":"Getting all the codes from database","timestamp":"2021-09-23T18:11:41.564Z"}
+{"level":"info","message":"get a request to search codes","timestamp":"2021-09-23T18:11:41.572Z"}
+{"level":"info","message":"Got 3 entries from database","timestamp":"2021-09-23T18:11:41.573Z"}
+{"level":"info","message":"got all the codes successfully","timestamp":"2021-09-23T18:11:41.573Z"}
+{"level":"info","message":"Searching codes by it's tags from database","timestamp":"2021-09-23T18:11:41.573Z"}
+{"level":"info","message":"got 1 entries from database","timestamp":"2021-09-23T18:11:41.579Z"}
+{"level":"info","message":"Searched codes by tags successfully","timestamp":"2021-09-23T18:11:41.580Z"}
+{"level":"info","message":"get a request to get all the codes","timestamp":"2021-09-23T18:11:41.586Z"}
+{"level":"info","message":"Getting all the codes from database","timestamp":"2021-09-23T18:11:41.586Z"}
+{"level":"info","message":"Got 3 entries from database","timestamp":"2021-09-23T18:11:41.588Z"}
+{"level":"info","message":"got all the codes successfully","timestamp":"2021-09-23T18:11:41.588Z"}
+{"level":"info","message":"get a request to search codes","timestamp":"2021-09-23T18:11:41.592Z"}
+{"level":"info","message":"Searching codes by category it's title from database","timestamp":"2021-09-23T18:11:41.592Z"}
+{"level":"info","message":"got 2 entries from database","timestamp":"2021-09-23T18:11:41.595Z"}
+{"level":"info","message":"Searched codes by category successfully","timestamp":"2021-09-23T18:11:41.595Z"}
+{"level":"info","message":"get a request to search codes","timestamp":"2021-09-23T18:11:41.600Z"}
+{"level":"error","message":"Search phrase is not defined","timestamp":"2021-09-23T18:11:41.600Z"}
+{"level":"info","message":"get a request to search codes","timestamp":"2021-09-23T18:11:41.604Z"}
+{"level":"error","message":"Only one search phrase can be defined","timestamp":"2021-09-23T18:11:41.604Z"}
+{"level":"info","message":"Authenticating the user","timestamp":"2021-09-23T18:11:41.626Z"}
+{"level":"info","message":"get a request to add a new code and user is authorized","timestamp":"2021-09-23T18:11:41.630Z"}
+{"level":"info","message":"Retrieve token from authorization header","timestamp":"2021-09-23T18:11:41.628Z"}
+{"level":"info","message":"Send get request to auth service for authenticate user by token","timestamp":"2021-09-23T18:11:41.628Z"}
+{"level":"info","message":"Cheking whether user authenticated","timestamp":"2021-09-23T18:11:41.629Z"}
+{"level":"info","message":"User authenticated successfully","timestamp":"2021-09-23T18:11:41.629Z"}
+{"level":"info","message":"Cheking whether user has moderator permissions","timestamp":"2021-09-23T18:11:41.629Z"}
+{"level":"info","message":"User has ADMIN role, has moderator permissions","timestamp":"2021-09-23T18:11:41.629Z"}
+{"level":"info","message":"Validating body","timestamp":"2021-09-23T18:11:41.630Z"}
+{"level":"info","message":"Data validated successfully","timestamp":"2021-09-23T18:11:41.632Z"}
+{"level":"info","message":"Adding new code to the database","timestamp":"2021-09-23T18:11:41.632Z"}
+{"level":"info","message":"Added a new code successfully: [{\"title\":\"Bubble Sort\",\"tags\":[\"bubble\",\"sort\",\"java\"],\"code\":\"sample code\",\"category\":\"sorting\",\"language\":\"java\",\"metaData\":{\"userId\":\"sdf\",\"createdAt\":\"2021-09-23T18:11:41.636Z\",\"lastUpdated\":\"2021-09-23T18:11:41.636Z\",\"numberOfTimesUpdated\":0},\"_id\":\"614cc35d730b2e98f4d4cc7b\",\"updateHistory\":[],\"version\":0}]","timestamp":"2021-09-23T18:11:41.645Z"}
+{"level":"info","message":"Authenticating the user","timestamp":"2021-09-23T18:11:41.657Z"}
+{"level":"info","message":"get a request to add a new code and user is authorized","timestamp":"2021-09-23T18:11:41.658Z"}
+{"level":"info","message":"Retrieve token from authorization header","timestamp":"2021-09-23T18:11:41.657Z"}
+{"level":"info","message":"Send get request to auth service for authenticate user by token","timestamp":"2021-09-23T18:11:41.657Z"}
+{"level":"info","message":"Cheking whether user authenticated","timestamp":"2021-09-23T18:11:41.657Z"}
+{"level":"info","message":"User authenticated successfully","timestamp":"2021-09-23T18:11:41.657Z"}
+{"level":"info","message":"Cheking whether user has moderator permissions","timestamp":"2021-09-23T18:11:41.658Z"}
+{"level":"info","message":"User has MODERATOR role, has moderator permissions","timestamp":"2021-09-23T18:11:41.658Z"}
+{"level":"info","message":"Validating body","timestamp":"2021-09-23T18:11:41.658Z"}
+{"level":"info","message":"Data validated successfully","timestamp":"2021-09-23T18:11:41.658Z"}
+{"level":"info","message":"Adding new code to the database","timestamp":"2021-09-23T18:11:41.658Z"}
+{"level":"info","message":"Added a new code successfully: [{\"title\":\"Bubble Sort\",\"tags\":[\"bubble\",\"sort\",\"java\"],\"code\":\"sample code\",\"category\":\"sorting\",\"language\":\"java\",\"metaData\":{\"userId\":\"sdf\",\"createdAt\":\"2021-09-23T18:11:41.659Z\",\"lastUpdated\":\"2021-09-23T18:11:41.659Z\",\"numberOfTimesUpdated\":0},\"_id\":\"614cc35d730b2e98f4d4cc7d\",\"updateHistory\":[],\"version\":0}]","timestamp":"2021-09-23T18:11:41.662Z"}
+{"level":"info","message":"Authenticating the user","timestamp":"2021-09-23T18:11:41.667Z"}
+{"level":"info","message":"Retrieve token from authorization header","timestamp":"2021-09-23T18:11:41.667Z"}
+{"level":"info","message":"Send get request to auth service for authenticate user by token","timestamp":"2021-09-23T18:11:41.667Z"}
+{"level":"info","message":"Cheking whether user authenticated","timestamp":"2021-09-23T18:11:41.667Z"}
+{"level":"info","message":"User authenticated successfully","timestamp":"2021-09-23T18:11:41.667Z"}
+{"level":"info","message":"Cheking whether user has moderator permissions","timestamp":"2021-09-23T18:11:41.667Z"}
+{"level":"error","message":"User doesn't have moderator permissions","timestamp":"2021-09-23T18:11:41.667Z"}
+{"level":"info","message":"Authenticating the user","timestamp":"2021-09-23T18:11:41.673Z"}
+{"level":"info","message":"get a request to add a new code and user is authorized","timestamp":"2021-09-23T18:11:41.674Z"}
+{"level":"info","message":"Retrieve token from authorization header","timestamp":"2021-09-23T18:11:41.673Z"}
+{"level":"info","message":"Send get request to auth service for authenticate user by token","timestamp":"2021-09-23T18:11:41.673Z"}
+{"level":"info","message":"Cheking whether user authenticated","timestamp":"2021-09-23T18:11:41.673Z"}
+{"level":"info","message":"User authenticated successfully","timestamp":"2021-09-23T18:11:41.674Z"}
+{"level":"info","message":"Cheking whether user has moderator permissions","timestamp":"2021-09-23T18:11:41.674Z"}
+{"level":"info","message":"User has ADMIN role, has moderator permissions","timestamp":"2021-09-23T18:11:41.674Z"}
+{"level":"info","message":"Validating body","timestamp":"2021-09-23T18:11:41.674Z"}
+{"level":"error","message":"Invalid data in body: ValidationError: \"[0].title\" is required. \"[0].category\" is required","timestamp":"2021-09-23T18:11:41.676Z"}

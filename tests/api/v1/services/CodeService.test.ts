@@ -1,4 +1,3 @@
-import { response } from "express";
 import { AddCodeInterface } from "../../../../src/api/v1/DataTypes/Types";
 import {
   addNewCode,
