@@ -38,7 +38,7 @@ export const addNewCodes = (
   res: Response,
   next: NextFunction
 ) => {
-  logger.info("get a request to add a new code");
+  logger.info("get a request to add a new code and user is authorized");
   const body: Array<AddCodeInterface> = req.body;
   logger.info("Validating body");
   const { error } = validateData(body, AddCodeSchema);
