@@ -15,7 +15,7 @@
       "./tests/api/v1/Config/Env.ts"
     ],
     "setupFilesAfterEnv": [
-      "./tests/api/v1/Config/config.ts"
+      "./tests/api/v1/Config/Config.ts"
     ]
   },
   "keywords": [],

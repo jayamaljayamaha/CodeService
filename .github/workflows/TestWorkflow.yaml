@@ -1,4 +1,4 @@
-name: AuthServiceTest
+name: CodeServiceTest
 
 on: [push]
 
