@@ -5,7 +5,8 @@
   "main": "Index.ts",
   "scripts": {
     "start": "ts-node src/Index.ts",
-    "test": "jest --watchAll --no-cache --verbose"
+    "test": "jest --no-cache --verbose",
+    "coverage": "jest --collectCoverage"
   },
   "jest": {
     "preset": "ts-jest",
@@ -14,7 +15,7 @@
       "./tests/api/v1/Config/Env.ts"
     ],
     "setupFilesAfterEnv": [
-      "./tests/api/v1/Config/config.ts"
+      "./tests/api/v1/Config/Config.ts"
     ]
   },
   "keywords": [],
