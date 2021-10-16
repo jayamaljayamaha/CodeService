@@ -8,8 +8,11 @@ if (!process.env.DB_URI) {
 if (!process.env.DB_NAME) {
   throw new Error("DB_NAME is not defined in env variables");
 }
-if (!process.env.DB_PORT) {
-  throw new Error("DB_PORT is not defined in env variables");
+if (!process.env.DB_USER) {
+  throw new Error("DB_USER is not defined in env variables");
+}
+if (!process.env.DB_PASSWORD) {
+  throw new Error("DB_PASSWORD is not defined in env variables");
 }
 if (!process.env.SERVER_PORT) {
   throw new Error("SERVER_PORT is not defined in env variables");
@@ -26,7 +29,7 @@ if (!process.env.LOG_FILE_PATH) {
 
 mongoose
   .connect(
-    `mongodb://${process.env.DB_URI}:${process.env.DB_PORT}/${process.env.DB_NAME}`
+    `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@${process.env.DB_URI}/${process.env.DB_NAME}?retryWrites=true&w=majority`
   )
   .then(() => {
     logger.info("Connected to database");

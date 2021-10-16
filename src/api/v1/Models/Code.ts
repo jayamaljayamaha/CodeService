@@ -12,7 +12,18 @@ const codeSchema = new mongoose.Schema({
   },
 
   code: {
-    type: String,
+    type: [
+      {
+        lineNumber: {
+          type: Number,
+          required: true,
+        },
+        code: {
+          type: String,
+          required: true,
+        },
+      },
+    ],
     required: true,
   },
 
