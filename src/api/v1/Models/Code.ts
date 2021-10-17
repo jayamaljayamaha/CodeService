@@ -12,6 +12,26 @@ const codeSchema = new mongoose.Schema({
   },
 
   code: {
+    type: [
+      {
+        lineNumber: {
+          type: Number,
+          required: true,
+        },
+        code: {
+          type: String,
+          required: true,
+        },
+        indentation: {
+          type: Number,
+          required: true,
+        },
+      },
+    ],
+    required: true,
+  },
+
+  codeString: {
     type: String,
     required: true,
   },

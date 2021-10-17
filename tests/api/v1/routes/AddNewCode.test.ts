@@ -13,7 +13,14 @@ describe("POST /api/v1/codes", () => {
       tags: ["bubble", "sort", "java"],
       category: "sorting",
       language: "java",
-      code: "sample code",
+      code: [
+        {
+          lineNumber: 1,
+          code: "sample code",
+          indentation: 0,
+        },
+      ],
+      codeString: "sample code",
       metaData: {
         userId: "sdf",
       },

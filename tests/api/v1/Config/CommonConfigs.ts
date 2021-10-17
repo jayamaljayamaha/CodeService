@@ -21,7 +21,14 @@ export const insertCodeDataToDb = () => {
       tags: ["bubble", "sort", "java"],
       category: "sorting",
       language: "java",
-      code: "sample code",
+      code: [
+        {
+          lineNumber: 1,
+          code: "sample code",
+          indentation: 0,
+        },
+      ],
+      codeString: "sample code",
       metaData: {
         userId: "sdf",
       },
@@ -31,7 +38,14 @@ export const insertCodeDataToDb = () => {
       tags: ["selection", "sort", "python"],
       category: "sorting",
       language: "python",
-      code: "sample code",
+      code: [
+        {
+          lineNumber: 1,
+          code: "sample code",
+          indentation: 0,
+        },
+      ],
+      codeString: "sample code",
       metaData: {
         userId: "id",
       },
@@ -41,7 +55,14 @@ export const insertCodeDataToDb = () => {
       tags: ["selection", "sort", "java"],
       category: "searching",
       language: "java",
-      code: "sample code",
+      code: [
+        {
+          lineNumber: 1,
+          code: "sample code",
+          indentation: 0,
+        },
+      ],
+      codeString: "sample code",
       metaData: {
         userId: "id",
       },
