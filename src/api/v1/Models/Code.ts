@@ -22,8 +22,17 @@ const codeSchema = new mongoose.Schema({
           type: String,
           required: true,
         },
+        indentation: {
+          type: Number,
+          required: true,
+        },
       },
     ],
+    required: true,
+  },
+
+  codeString: {
+    type: String,
     required: true,
   },
 
